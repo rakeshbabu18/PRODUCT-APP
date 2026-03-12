@@ -59,7 +59,7 @@ function ContactUs() {
                 Phone
               </h3>
               <p className="text-gray-600 mb-2">+91 99999 99999</p>
-              <p className="text-sm text-gray-500">Mon - Fri 9AM - 5PM EST</p>
+              <p className="text-sm text-gray-500">Mon - Fri 9AM - 5PM IST</p>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-xl">
