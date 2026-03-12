@@ -37,7 +37,7 @@ function ContactUs() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-1 gap-12 items-start">
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-2xl shadow-xl">
@@ -58,7 +58,7 @@ function ContactUs() {
                 </svg>
                 Phone
               </h3>
-              <p className="text-gray-600 mb-2">+1 (555) 123-4567</p>
+              <p className="text-gray-600 mb-2">+91 99999 99999</p>
               <p className="text-sm text-gray-500">Mon - Fri 9AM - 5PM EST</p>
             </div>
 
@@ -74,68 +74,8 @@ function ContactUs() {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <div>
-            <div className="bg-white p-8 rounded-2xl shadow-xl">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
-                    placeholder="Your name"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
-                    placeholder="your@email.com"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 resize-vertical"
-                    placeholder="Tell us about your inquiry..."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed"
-                  disabled={submitted}
-                >
-                  {submitted ? 'Sent! Thank you!' : 'Send Message'}
-                </button>
-              </form>
-            </div>
-          </div>
+          
+          
         </div>
       </div>
     </div>
