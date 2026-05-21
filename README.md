@@ -26,17 +26,12 @@ A modern, responsive product showcase application built with React 19, React Rou
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. Navigate to the project directory:
+1. Navigate to the project directory:
    ```bash
    cd react-products-app
    ```
 
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
